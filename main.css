@@ -1,0 +1,75 @@
+body {
+  color: #3E403E;
+  /*margin: 0;*/
+  /*font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  background: linear-gradient( #3EA31C, #000 40%),;
+}
+.navbar{;
+
+	background-color: #000
+}
+.jumbotron {
+	/*padding-top: 80px;*/
+	/*height: 280px;*/
+	background: linear-gradient( #3EA31C, transparent 80%), 
+	url('img/emow1.png') center;
+	border-bottom: 2px solid #000;
+}
+.display-2 {
+	/*font-size: 3.90em;*/
+	/*letter-spacing: -2px;*/
+	color: #000;
+	text-shadow: 5px 10px 15px #fff;
+}
+.about{
+	background: radial-gradient( #3EA31C, #000  30%);
+	border: 2px solid #fff;
+	border-radius: 25px;
+}
+.about h3 {
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	/*font-size: 2em;*/
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.about p {
+	color : #fff;
+	font-size: 1.5em;
+	font-family: 'Courgette', cursive;
+
+}
+.hr {
+	background-color: #fff;
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+
+.contact-info {
+	list-style: none;
+}
+.contact-info a {
+	text-align: center;
+	display: block;
+	color: #fff;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 20px;
+	margin: 0 0 10px;
+}
+.phone a {
+  background-image: url("img/phone.png");
+}
+.mail a {
+	background-image: url("img/mail.png");
+}
+.twitter a {
+	background-image: url("img/twitter.png");
+}
